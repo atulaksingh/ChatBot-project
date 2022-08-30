@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary: rgb(54, 117, 255);
+}
+.container {
+  margin: 0% 5%;
+}
+section {
+  margin: 0 0 50px 0;
+}
+.text-center {
+  text-align: center;
+}
+.hero-img-1 {
+  width: 500px;
+  height: 360px;
+}
+.display-1 {
+  font-size: 2.2rem;
+}
+.display-2 {
+  font-size: 1.8rem;
+}
+.m-0 {
+  margin: 0;
+}
+.btnn {
+  display: inline-block;
+  margin: 15px 5px;
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  color: white;
+  padding: 7px 20px;
+  text-decoration: none;
+  border-radius: 66px;
+}
+.btn-outline {
+  display: inline-block;
+  margin: 15px 5px;
+  border: 2px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 66px;
+}
+.hero-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.width-50 {
+  width: 50%;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.chat-img {
+  width: 70%;
+
+  border-radius: 12px;
+}
+.desc {
+  color: rgb(73, 73, 73);
+}
+.app-card {
+  width: 70%;
+  background-color: rgb(255, 243, 222);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.mobile-img {
+  width: 100%;
+}
+.app-icon {
+  height: 45px;
+}
+.features {
+  width: 85%;
+}
+.card {
+  width: 350px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  margin: 12px;
+}
+
+.navbar {
+  margin: 0 6%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  text-decoration: none;
+  padding: 12px;
+  font-weight: bolder;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+.link {
+  margin-top: 20px;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 8px 14px;
+  font-weight: bolder;
+  color: black;
+}
